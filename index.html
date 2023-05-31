@@ -25,6 +25,11 @@ form{
     padding: 40px;
     margin: auto;
 }
+.wrap{
+    display: flex;
+    justify-content: center;
+    margin:10px 20px
+}
 
     </style>
 </head>
@@ -45,6 +50,14 @@ form{
             <input type="text">
             <h3>Passenger 6</h3>
             <input type="text">
+            <br>
+            
+            Trip Prefrence
+            <div class="wrap">
+                <input type="radio" name="Transport"> Taxi
+                <input type="radio" name="Transport"> Train
+                <input type="radio" name="Transport"> Flight
+            </div>
 <br>
             <input type="submit" value="Submit & Pay">
         </form>
